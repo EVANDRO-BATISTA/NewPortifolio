@@ -39,7 +39,7 @@ export default function Home() {
         <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image
-              src="/LogoEB.png"
+              src="./LogoEB.png"
               alt="EB Logo"
               width={50}
               height={50}
@@ -91,7 +91,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-orange-500 rounded-full blur-3xl opacity-20"></div>
                 <Image
-                  src="/LogoEB.png"
+                  src="./LogoEB.png"
                   alt="EB Logo"
                   width={400}
                   height={400}
