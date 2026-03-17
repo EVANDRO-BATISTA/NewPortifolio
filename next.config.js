@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/NewPortifolio',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   eslint: {
     ignoreDuringBuilds: true,
   },
