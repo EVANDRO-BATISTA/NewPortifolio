@@ -17,7 +17,7 @@ export default function Home() {
       title: 'Site_B2B',
       description: 'Site institucional moderno para empresas de tecnologia que vendem para outras empresas (B2B), como consultorias e empresas de software.',
       tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-      link: 'https://v0-site-b2-b-tech.vercel.app/contato'
+      link: 'https://v0-site-b2-b-tech.vercel.app/'
     },
     {
       title: 'Landing Page Cursos',
@@ -29,7 +29,7 @@ export default function Home() {
       title: 'Registro Publico de Pets',
       description: 'Sistema de registro publico de Pets e seus tutores, onde os usuarios podem cadastrar seus pets, atualizar informacoes e compartilhar com outros usuarios.',
       tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'React Context API + SWR'],
-      link: 'registro-publico-de-pets-e38zkhjp3-evandrob1056-4545s-projects.vercel.app'
+      link: 'https://registro-publico-de-pets-e38zkhjp3-evandrob1056-4545s-projects.vercel.app/'
     },
   ];
 
@@ -110,11 +110,11 @@ export default function Home() {
               Sobre Mim
             </span>
           </h2>
-          <div className="max-w-3xl mx-auto text-center space-y-6">
+          <div className="max-w-3xl mx-auto text-justify space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
-              Com mais de 7 anos de experiência no setor de tecnologia, transformo desafios complexos em aplicações escaláveis, intuitivas e seguras. Minha expertise une o desenvolvimento moderno com React e Next.js a uma visão analítica de backend e infraestrutura.
+              Sou Evandro da Silva Batista, tenho mais de 7 anos de experiência no setor de tecnologia, transformo desafios complexos em aplicações escaláveis, intuitivas e seguras. Minha expertise une o desenvolvimento moderno com React e Next.js a uma visão analítica de backend e infraestrutura.
 
-              Especialista em Engenharia de Computação, foco em entregar não apenas código, mas soluções completas que alinham performance excepcional a um design de alta qualidade. Meu objetivo é impulsionar negócios através de arquiteturas robustas e experiências digitais que realmente impactam o usuário final.
+              Com Bacharelado em Engenharia de Computação e Pos Graduação em Desenvolvimento Full Stack, foco em entregar não apenas código, mas soluções completas que alinham performance excepcional a um design de alta qualidade. Meu objetivo é impulsionar negócios através de arquiteturas robustas e experiências digitais que realmente impactam o usuário final.
               
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
@@ -212,7 +212,8 @@ export default function Home() {
               Enviar Email
             </Button>
             {/* Botão GitHub */}
-            <Button 
+            <Button
+              onClick={() => window.open("https://github.com/EVANDRO-BATISTA", "_blank")}
               variant="outline" 
               className="bg-white border-black text-black hover:bg-black hover:text-white transition-all duration-300"
             >
@@ -221,7 +222,8 @@ export default function Home() {
             </Button>
 
             {/* Botão LinkedIn */}
-            <Button 
+            <Button
+              onClick={() => window.open("https://www.linkedin.com/in/evandro-batista-web-development-263594187/", "_blank")}
               variant="outline" 
               className="bg-white border-[#0077B5] text-[#0077B5] hover:bg-[#0077B5] hover:text-white transition-all duration-300"
             >
