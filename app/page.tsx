@@ -14,22 +14,22 @@ export default function Home() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Plataforma completa de e-commerce com painel administrativo, carrinho de compras e processamento de pagamentos.',
-      tech: ['Next.js', 'Stripe', 'PostgreSQL'],
-      link: '#'
+      title: 'Site_B2B',
+      description: 'Site institucional moderno para empresas de tecnologia que vendem para outras empresas (B2B), como consultorias e empresas de software.',
+      tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+      link: 'https://v0-site-b2-b-tech.vercel.app/contato'
     },
     {
-      title: 'Dashboard Analytics',
-      description: 'Dashboard interativo para análise de dados em tempo real com gráficos e métricas personalizadas.',
-      tech: ['React', 'D3.js', 'Node.js'],
-      link: '#'
+      title: 'Landing Page Cursos',
+      description: 'Profissionais do marketing digital e infoprodutores precisam de landing pages de alta conversao para vender cursos online e captar leads para webinars',
+      tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+      link: 'https://v0-landing-page-para-cursos-beta.vercel.app/'
     },
     {
-      title: 'Social Media App',
-      description: 'Aplicação social com feed de posts, sistema de comentários e notificações em tempo real.',
-      tech: ['Next.js', 'Supabase', 'WebSockets'],
-      link: '#'
+      title: 'Registro Publico de Pets',
+      description: 'Sistema de registro publico de Pets e seus tutores, onde os usuarios podem cadastrar seus pets, atualizar informacoes e compartilhar com outros usuarios.',
+      tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'React Context API + SWR'],
+      link: 'https://vm-uhftzjka37gsd7pqrqs1qg.vusercontent.net/'
     },
   ];
 
@@ -81,7 +81,7 @@ export default function Home() {
                   </Button>
                 </a>
                 <a href="#contact">
-                  <Button variant="outline" className="border-orange-500 text-orange-400 hover:bg-orange-500/10">
+                  <Button variant="outline" className="border-orange-500 text-orange-400 hover:text-white hover:bg-orange-500/10">
                     Entre em Contato
                   </Button>
                 </a>
