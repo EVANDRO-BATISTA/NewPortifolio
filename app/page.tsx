@@ -29,7 +29,7 @@ export default function Home() {
       title: 'Registro Publico de Pets',
       description: 'Sistema de registro publico de Pets e seus tutores, onde os usuarios podem cadastrar seus pets, atualizar informacoes e compartilhar com outros usuarios.',
       tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'React Context API + SWR'],
-      link: 'https://vm-uhftzjka37gsd7pqrqs1qg.vusercontent.net/'
+      link: 'registro-publico-de-pets-e38zkhjp3-evandrob1056-4545s-projects.vercel.app'
     },
   ];
 
@@ -186,7 +186,7 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
-                  <Button variant="ghost" className="w-full text-orange-400 hover:text-orange-300 hover:bg-orange-500/10">
+                  <Button onClick={() => window.open(project.link, "_blank")} variant="ghost" className="w-full text-orange-400 hover:text-orange-300 hover:bg-orange-500/10">
                     Ver Projeto <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
                 </CardContent>
