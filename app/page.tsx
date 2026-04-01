@@ -29,7 +29,7 @@ export default function Home() {
       title: 'Registro Publico de Pets',
       description: 'Sistema de registro publico de Pets e seus tutores, onde os usuarios podem cadastrar seus pets, atualizar informacoes e compartilhar com outros usuarios.',
       tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'React Context API + SWR'],
-      link: 'https://registro-publico-de-pets-e38zkhjp3-evandrob1056-4545s-projects.vercel.app/'
+      link: 'https://registro-publico-de-pets.vercel.app/'
     },
   ];
 
